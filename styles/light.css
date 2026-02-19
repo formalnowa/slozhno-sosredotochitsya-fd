@@ -19,6 +19,7 @@
   --button-outline-rgb: 53 52 48;
   --button-color: var(--text-color);
   --decor-color: var(--text-color);
+  --section-title-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {

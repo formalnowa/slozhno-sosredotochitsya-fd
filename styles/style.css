@@ -114,7 +114,7 @@
 .content__title {
   font-size: 18px;
   line-height: 1.3;
-  color: var(--text-color, #ff0070);
+  color: var(--section-title-color);
 }
 
 .title-decor {
@@ -331,6 +331,9 @@
     grid-row-start: 3;
     grid-row-end: 4;
   }
+  .footer {
+    padding: 20px;
+  }
 }
 
 @media (width >= 1024px) {
@@ -402,5 +405,8 @@
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+  .footer {
+    padding: 20px;
   }
 }
