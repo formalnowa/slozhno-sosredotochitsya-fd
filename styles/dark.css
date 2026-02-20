@@ -14,4 +14,6 @@
   --button-outline-rgb: 255 0 112;
   --button-color: var(--accent-color);
   --decor-color: var(--accent-color);
+  --accent-text-color: #000028;
+  --section-title-color: var(--accent-color);
 }
